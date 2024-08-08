@@ -47,13 +47,13 @@ h6 {
   display: flex;
   list-style: none;
   font-family: sans-serif;
-  margin-right: 50px;
 }
 
 .nav-links a {
   text-decoration: none;
   padding: 0 15px;
   color: var(--base-100);
+  marigin-right: 30px;
 }
 
 .nav-links a:hover {
