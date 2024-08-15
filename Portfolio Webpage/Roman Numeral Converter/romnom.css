@@ -1,0 +1,84 @@
+body {
+  background-color: #fef6e4;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 30px;
+  font-family: helvetica
+}
+
+/* input field */
+#number {
+  flex: 70%;
+  max-width: 300px;
+  border: 3px solid grey;
+  height: 28px;
+  margin: 2px;
+}
+
+/* output field */
+#output {
+  color: green;
+  width: 250px;
+  height: 50px;
+  margin: 10px 20px 20px 5px;
+}
+
+/* convert Button */
+#convert-btn {
+  flex: 30%;
+  max-width: 150px;
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block; 
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: sticky;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#convert-btn :focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+#convert-btn:hover {
+
+  background-color: #2c974b;
+}
+
+#convert-btn:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+#convert-btn:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+#convert-btn:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
