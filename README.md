@@ -1,1 +1,1 @@
-This is the beginning of my portfolio. It mainly contains projects from FCC. I will be expanding on this in months to come.
+This is my portfolio webpage. I will post my most recent projects here and potentially start a blog about my journey as a tech professional!
