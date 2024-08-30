@@ -2183,7 +2183,7 @@ button,
         width: 100%; } }
   @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
-      height: 250px; } }
+      max-height: 38vh; } }
 
 /* Footer */
 #footer .copyright {
