@@ -1844,7 +1844,7 @@ button,
   min-height: 100vh; }
 
 /* Main */
-#main {
+main, #main {
   -moz-flex-grow: 1;
   -webkit-flex-grow: 1;
   -ms-flex-grow: 1;
@@ -1854,29 +1854,29 @@ button,
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   width: 100%; }
-  #main > .inner {
+  main, #main > .inner {
     padding: 0 6em 0.1em 6em ;
     margin: 0 auto;
     max-width: 110em; }
-    #main > .inner > section {
+    main, #main > .inner > section {
       padding: 6em 0 4em 0 ;
       border-top: solid 2px rgba(210, 215, 217, 0.75); }
-      #main > .inner > section:first-of-type {
+      main, #main > .inner > section:first-of-type {
         border-top: 0 !important; }
   @media screen and (max-width: 1680px) {
-    #main > .inner {
+    main, #main > .inner {
       padding: 0 5em 0.1em 5em ; }
-      #main > .inner > section {
+      main, #main > .inner > section {
         padding: 5em 0 3em 0 ; } }
   @media screen and (max-width: 1280px) {
-    #main > .inner {
+    main, #main > .inner {
       padding: 0 4em 0.1em 4em ; }
-      #main > .inner > section {
+      main, #main > .inner > section {
         padding: 4em 0 2em 0 ; } }
   @media screen and (max-width: 736px) {
-    #main > .inner {
+    main, #main > .inner {
       padding: 0 2em 0.1em 2em ; }
-      #main > .inner > section {
+      main, #main > .inner > section {
         padding: 3em 0 1em 0 ; } }
 
 /* Sidebar */
@@ -1915,7 +1915,7 @@ button,
   #search form input[type="text"] {
     padding-right: 2.75em; }
 
-#sidebar {
+aside, #sidebar {
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
   -ms-flex-grow: 0;
@@ -1932,29 +1932,29 @@ button,
   font-size: 0.9em;
   position: relative;
   width: 26em; }
-  #sidebar h2 {
+  aside, #sidebar h2 {
     font-size: 1.38889em; }
-  #sidebar > .inner {
+  aside, #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
     width: 26em; }
-    #sidebar > .inner > * {
+    aside, #sidebar > .inner > * {
       border-bottom: solid 2px rgba(210, 215, 217, 0.75);
       margin: 0 0 3.5em 0;
       padding: 0 0 3.5em 0; }
-      #sidebar > .inner > * > :last-child {
+      aside, #sidebar > .inner > * > :last-child {
         margin-bottom: 0; }
-      #sidebar > .inner > *:last-child {
+      aside, #sidebar > .inner > *:last-child {
         border-bottom: 0;
         margin-bottom: 0;
         padding-bottom: 0; }
-    #sidebar > .inner > .alt {
+    aside, #sidebar > .inner > .alt {
       background-color: #eff1f2;
       border-bottom: 0;
       margin: -2.22222em 0 4.44444em -2.22222em;
       padding: 2.22222em;
       width: calc(100% + 4.44444em); }
-  #sidebar .toggle {
+  aside, #sidebar .toggle {
     text-decoration: none;
     -moz-transition: left 0.5s ease;
     -webkit-transition: left 0.5s ease;
@@ -1975,7 +1975,7 @@ button,
     top: 0;
     width: 6em;
     z-index: 10000; }
-    #sidebar .toggle:before {
+    aside, #sidebar .toggle:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
       display: inline-block;
@@ -1986,7 +1986,7 @@ button,
       text-transform: none !important;
       font-family: 'Font Awesome 5 Free';
       font-weight: 900; }
-    #sidebar .toggle:before {
+    aside, #sidebar .toggle:before {
       content: '\f0c9';
       font-size: 2rem;
       height: inherit;
@@ -1996,39 +1996,39 @@ button,
       text-indent: 0;
       top: 0;
       width: inherit; }
-  #sidebar.inactive {
+  aside, #sidebar.inactive {
     margin-left: -26em; }
   @media screen and (max-width: 1680px) {
-    #sidebar {
+    aside, #sidebar {
       width: 24em; }
-      #sidebar > .inner {
+      aside, #sidebar > .inner {
         padding: 1.66667em 1.66667em 1.33333em 1.66667em ;
         width: 24em; }
-        #sidebar > .inner > .alt {
+        aside, #sidebar > .inner > .alt {
           margin: -1.66667em 0 3.33333em -1.66667em;
           padding: 1.66667em;
           width: calc(100% + 3.33333em); }
-      #sidebar .toggle {
+      aside, #sidebar .toggle {
         height: 6.25em;
         left: 24em;
         line-height: 6.25em;
         text-indent: 5em;
         width: 5em; }
-        #sidebar .toggle:before {
+        aside, #sidebar .toggle:before {
           font-size: 1.5rem; }
-      #sidebar.inactive {
+      aside, #sidebar.inactive {
         margin-left: -24em; } }
   @media screen and (max-width: 1280px) {
-    #sidebar {
+    aside, #sidebar {
       box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
       height: 100%;
       left: 0;
       position: fixed;
       top: 0;
       z-index: 10000; }
-      #sidebar.inactive {
+      aside, #sidebar.inactive {
         box-shadow: none; }
-      #sidebar > .inner {
+      aside, #sidebar > .inner {
         -webkit-overflow-scrolling: touch;
         height: 100%;
         left: 0;
@@ -2036,30 +2036,30 @@ button,
         overflow-y: auto;
         position: absolute;
         top: 0; }
-        #sidebar > .inner:after {
+        aside, #sidebar > .inner:after {
           content: '';
           display: block;
           height: 4em;
           width: 100%; }
-      #sidebar .toggle {
+      aside, #sidebar .toggle {
         text-indent: 6em;
         width: 6em; }
-        #sidebar .toggle:before {
+        aside, #sidebar .toggle:before {
           font-size: 1.5rem;
           margin-left: -0.4375em; }
-      body.is-preload #sidebar {
+      body.is-preload aside, #sidebar {
         display: none; } }
   @media screen and (max-width: 736px) {
-    #sidebar .toggle {
+    aside, #sidebar .toggle {
       text-indent: 7.25em;
       width: 7.25em; }
-      #sidebar .toggle:before {
+      aside, #sidebar .toggle:before {
         color: #7f888f;
         margin-left: -0.0625em;
         margin-top: -0.25em;
         font-size: 1.1rem;
         z-index: 1; }
-      #sidebar .toggle:after {
+      aside, #sidebar .toggle:after {
         background: rgba(222, 225, 226, 0.75);
         border-radius: 0.375em;
         content: '';
