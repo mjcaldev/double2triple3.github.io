@@ -175,29 +175,123 @@ main {
 }
 
 @media all and (max-width: 480px) {
+
+  body {
+    margin: 5px;
+    font-size: 0.7rem; /* Slightly smaller font size for mobile */
+  }
+
+  header {
+    flex-direction: row; /* Stack the header elements vertically */
+    align-items: center;
+    padding: 5px 15px;
+  }
+
+  header > h2 {
+    font-size: 0.8em;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav > ul {
+    font-size: 0.5rem;
+    flex-direction: row; /* Stack the nav links vertically */
+    gap: 8px; /* Reduce gap between links */
+  }
+
+  .submit {
+    font-size: 0.5rem
+  }
+
+  main {
+    flex-direction: column; /* Stack the main content */
+    margin: 20px 0;
+    gap: 20px;
+  }
+
+  #main-left {
+    width: 90%; /* Expand to nearly full width */
+    margin-left: 0; /* Center on mobile */
+    margin-top: 20px;
+    text-align: center; /* Center-align text for a cleaner mobile view */
+    gap: 10px;
+  }
+
+  #main-left > h1 {
+    font-size: 2em; /* Reduce the font size for better readability on small screens */
+  }
+
+  #contact-form button {
+    margin: 10px;
+  }
+
+  #email-input {
+    width: 80%; /* Adjust the input field to take more space */
+  }
+
+
+
+  #main-right {
+    width: 90%; /* Ensure image section fits */
+    margin-top: 20px;
+  }
+
+  #main-right > img {
+    width: 100%; /* Ensure image takes up full width */
+  }
+
+  #sub-section {
+    display: flex;
+    flex-direction: column; /* Stack the feature list vertically */
+    gap: 30px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center icons */
+    align-items: center;
+  }
+
+  #bottom {
+    height: auto; /* Adjust height for better fit */
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .links {
+    text-align: center;
+  }
+
+  #bottom h1 {
+    margin-left: 0;
+    font-size: 2.5em; /* Adjust font size */
+    text-align: center; /* Center-align text */
+  }
+
+  #bottom p {
+    margin-left: 0;
+    width: 90%; /* Take up more space */
+    text-align: center; /* Center-align paragraph text */
+    margin: 0 auto; /* Center the paragraph */
+  }
   
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 768px) {
   
 }
 
-@media all and (max-width: 480px) {
+@media all and (min-width: 768px) and (max-width: 1024px) {
   
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 1024px) {
   
 }
 
-@media all and (max-width: 480px) {
-  
-}
-
-@media all and (max-width: 480px) {
-  
-}
-
-@media all and (max-width: 480px) {
+@media all and (max-width: 1200px) {
   
 }
