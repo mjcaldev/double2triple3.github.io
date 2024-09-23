@@ -174,7 +174,7 @@ main {
   color: var(--dark-blue);
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 768px) {
 
   body {
     margin: 5px;
@@ -196,7 +196,7 @@ main {
   }
 
   nav > ul {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     flex-direction: row; /* Stack the nav links vertically */
     gap: 8px; /* Reduce gap between links */
   }
@@ -221,6 +221,7 @@ main {
 
   #main-left > h1 {
     font-size: 2em; /* Reduce the font size for better readability on small screens */
+    width: 100%;
   }
 
   #contact-form button {
