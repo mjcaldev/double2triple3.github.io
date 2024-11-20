@@ -1,1 +1,1 @@
-This is my portfolio webpage. I will post my most recent projects here and potentially start a blog about my journey as a tech professional!
+Excuse the appearance. Under construction👷 I am currently transitioning this site's tech stack from HTML, CSS, and JS to reflect the new tech I am learning. I am also transferring the domain from DoubleTriple Dev to mjcal.dev. Have a look around!
